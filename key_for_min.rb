@@ -9,8 +9,6 @@ def key_for_min_value(name_hash)
     return array[0][0]
   elsif (array[2][1] < array[0][1]) && (array[2][1] < array [1][1])
     return array[2][0]
-  else
-    nil
   end
 end
 
