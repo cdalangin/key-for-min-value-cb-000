@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
       1
     end
   end
-    name_hash
+    array << name_hash
 end
