@@ -7,6 +7,4 @@ def key_for_min_value(name_hash)
       1
     end
   end
-    array = name_hash.to_a
-    array.delete_at(0)
 end
