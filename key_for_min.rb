@@ -3,10 +3,10 @@
 
 def key_for_min_value(name_hash)
   array = []
-  name_hash.map do |key, value|
+  name_hash.collect do |key, value|
     if key[1] > key[2]
       1
     end
-    name_hash
   end
+    name_hash
 end
