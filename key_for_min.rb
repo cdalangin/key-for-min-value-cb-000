@@ -4,8 +4,12 @@
 def key_for_min_value(name_hash)
   array = []
   name_hash.each do |key, value|
-    if key[1] > key[2]
+    if key[0] > key[1]
       1
+    elsif key[0] < key[1]
+      -1
+    else
+      0
 
     end
     array << key
