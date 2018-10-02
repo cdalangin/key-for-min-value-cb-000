@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
     end
   end
     array = name_hash.to_a
-    array.delete_at(1).delete_at(2)
+    array.delete_at(1)
 end
