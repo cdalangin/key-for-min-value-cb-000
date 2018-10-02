@@ -6,7 +6,8 @@ def key_for_min_value(name_hash)
     if key[1] > key[2]
       1
     end
-  end
     array = name_hash.to_a
+  end
+
 
 end
